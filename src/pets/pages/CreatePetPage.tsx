@@ -4,7 +4,7 @@ import { toast } from 'react-toastify'
 import { petApi } from '../api/petApi'
 import { ArrowLeft, Loader2 } from 'lucide-react'
 import { ImagePicker } from '../../shared/components/ImagePicker'
-import type { PetSpecies, DogBreed, Gender, Pet } from '../types/pet'
+import type { PetSpecies, DogBreed, Gender } from '../types/pet'
 
 type SpeciesConfig = {
   label: string
